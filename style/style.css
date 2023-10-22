@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, lightblue, white);
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.links {
+    display: flex;
+    padding-left: 500px;
+}
+.intro{
+    margin-top: 20px;
+    font-size: 2.5rem; 
+}
+.image {
+    width: 600px;
+    height: 300px;
+}
+form label {
+    font-weight: bold;
+}
+
+input[type="text"],
+textarea,
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+   
+}
+input[type="text"]{
+    text-align: center;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+    margin-left: 10px;
+}
+
+button {
+    padding: 10px 20px;
+}
+
+.btn-secondary {
+    margin-left: 10px;
+}
+
+a.btn {
+    margin-top: 10px;
+}
+
+.customStyle-card-form{
+    border-radius: 1rem;
+    padding: 0.75rem;
+    background-color: #09585e; 
+    color: white;
+    border: 4px solid #DD99BB;
+  }
+
+
+  .wrapper{
+    border-radius: 1rem;
+    padding: 0.75rem;
+    background-color: #09585e; 
+    color: white;
+    border: 4px solid #DD99BB;
+  }
+
+
+@media screen and (max-width: 1000px) {
+  
+    .container {
+        width: 70vw; 
+    }
+    .intro {
+        font-size: 2.5rem; 
+    }
+    .description {
+        font-size: 1.7rem; 
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    
+    .container {
+        width: 90vw; 
+    }
+    .intro {
+        font-size: 1.9rem; 
+    }
+    .description {
+        font-size: 1.2rem;
+    }
+}
+.navbar-nav {
+    text-align: center; 
+}
+
+.navbar-toggler {
+    display: none; 
+}
+
+
+@media (max-width: 992px) {
+    .navbar-toggler {
+        display: block; 
+    }
+
+    .navbar-nav {
+        text-align: left; 
+    }
+}
+
+
